@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.main .navbar{
+    height: 10vh;
+    width: 100vw;
+    /* border: 2px solid blue; */
+}
+.main .upperhead{
+    height: 8vh;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    line-height: 20px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    font-size: 400;
+    font-style: normal;
+    font-stretch: 100%;
+background-image: radial-gradient(54.97% 272.54% at 27.36% -134.72%,rgba(108,148,255,.92) 0,rgba(0,0,0,.92) 100%);
+}
+.main .upperhead .fhead{
+     font-size: 18px;
+}
+.main .upperhead .shead{
+    font-size: 16px;
+}
+.main .upperhead .thead{
+    font-size: 16px;
+}
+video{
+    height: 92vh;
+    width: 100vw;
+    object-fit: cover;
+    /* position: relative; */
+}
+.main .insidevideo{
+ position: relative;
+}
+.mainbutton{
+    position: absolute;
+    top: 75vh;
+    left: 30vw;
+    color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+ 
+    opacity: 100%;
+    gap: 30px;
+}
+.mainbutton .b1{
+   font-size: 16px;
+    height: 5vh;
+    width: 18vw;
+    background-color: rgba(128, 128, 128, 0.582);
+    border: 2px rgba(121, 120, 120, 0.905) ;
+    border-radius: 5px;
+   cursor: pointer;
+}
+.mainbutton .b2{
+    background-color: rgba(255, 255, 255, 0.797);
+    border: 2px rgba(255, 255, 255, 0.905) ;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 5vh;
+    width: 18vw;
+    cursor: pointer;
+}
+.para{
+    position: absolute;
+    top: 84vh;
+    left: 30.5vw;
+    color: white;
+    font-size: 15.5px;
+}
+
+.navigation{
+    height:7vh;
+    width: 100vw;
+    position: absolute;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation .teslapng{
+    height: 4vh;
+    width: 12vw;
+    /* border: 2px solid green; */
+    background-image: url("images/tesla-logo-png-2244.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    filter: invert(100%);   
+
+}
+.navigation .menu{
+    height: 4vh;
+    width: 30vw;
+    /* border: 2px solid green; */
+
+}
+.navigation .menu ul{
+    display: flex;
+    list-style: none;
+    color: white;
+   font-size: 18px;
+   gap: 40px;
+   font-weight:700;
+
+}
+.navigation .icon{
+    height: 5vh;
+    width: 10vw;
+    /* border: 2px solid green; */
+}
+.navigation .icon .icon1 .fa-regular{
+     position: absolute;
+     height: 2vh;
+     width: 6vw;
+     color: white;
+}
+
